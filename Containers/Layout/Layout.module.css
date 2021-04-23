@@ -1,0 +1,15 @@
+.Layout{
+	margin: 0;
+	width: 100vw;
+	min-height: 100vh;
+	box-sizing: border-box;
+
+}
+.Content{
+	box-sizing: border-box;
+	background-color: #292929;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+}

@@ -1,0 +1,14 @@
+.Button{
+	padding: .5rem .7rem;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: .3s all ease-in;
+	color: white;
+	border: none;
+}
+.Button:hover{
+	opacity: .9;
+	box-shadow: 1px 1px 30px rgba(0, 0, 0, .3)
+}

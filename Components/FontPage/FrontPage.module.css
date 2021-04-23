@@ -1,0 +1,26 @@
+
+.FrontPage{
+	width: 100%;
+	height: 75vh;
+	box-sizing: border-box;
+	background-image: linear-gradient(45deg, #1F1A24, #2F1A24);
+	color: rgba(255, 255, 255, .9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	padding: 1rem 0;
+	line-height: .7em;
+	clip-path: polygon(0% 0%, 100% 0, 100% 78%, 50% 100%, 0 79%);
+	box-shadow: 2px 2px 30px white;
+}
+.FrontPage img{
+	height: 260px;
+}
+.FrontPage h1{
+	font-size: 3rem;
+}
+.FrontPage h4{
+	font-size: 1.5rem;
+	opacity: .8;
+}

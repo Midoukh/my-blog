@@ -1,0 +1,18 @@
+.Latest, .Head, .ShowMore{
+	width: 100%;
+	box-sizing: border-box;
+}
+.ShowMore{
+	display: flex;
+	justify-content: center;
+}
+.Head{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 1.0);
+}
+.Head img{
+	height: 35px;
+	margin-left: 1rem;
+}
