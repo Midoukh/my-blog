@@ -1,0 +1,8 @@
+.Tags {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 45vh;
+  display: flex;
+  justify-content: center;
+}

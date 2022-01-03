@@ -1,0 +1,55 @@
+/*dark color*/
+.Nav {
+  max-width: 100vw;
+  height: 70px;
+  background-color: #1f1a24;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 2.5rem 1rem;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.9);
+  overflow-y: visible;
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+.Nav ul {
+  list-style: none;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  transition: all 0.1s ease-in;
+}
+.Nav ul li {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.Nav ul li:hover {
+  font-weight: 900;
+}
+.outerMenu {
+  width: 10vw;
+}
+.innerMenu {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.MenuButton {
+  width: 10vw;
+  display: inline;
+}
+
+@media (max-width: 800px) {
+  .Nav ul {
+    display: none;
+  }
+}

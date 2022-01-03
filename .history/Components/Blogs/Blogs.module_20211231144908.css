@@ -1,0 +1,24 @@
+.Blogs {
+  width: 100vw;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2rem;
+  justify-content: center;
+}
+@media (max-width: 830px) {
+  .Blogs {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (max-width: 600px) {
+  .Blogs {
+    grid-column-gap: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .Blogs div {
+    height: 190px;
+    width: 190px;
+  }
+}

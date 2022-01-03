@@ -1,0 +1,8 @@
+.Blogs{
+	width: 100vw;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(3, auto); 
+	grid-gap: 2rem;
+	justify-content: center;
+}

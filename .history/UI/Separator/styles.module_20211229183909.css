@@ -1,0 +1,16 @@
+.Separator {
+  margin: 2rem;
+  height: 5px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(100, 100, 100, 0.521);
+}
+.Separator h2 {
+  background-color: #030d22;
+}
+.Active {
+  height: 100%;
+  background-color: #1c4bb1;
+  width: 20%;
+}
