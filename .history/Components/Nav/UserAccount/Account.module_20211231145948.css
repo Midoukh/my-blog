@@ -1,9 +1,0 @@
-.Account {
-  height: 45px;
-  cursor: pointer;
-}
-@media (max-width: 500px) {
-  .Account {
-    height: 37px;
-  }
-}
