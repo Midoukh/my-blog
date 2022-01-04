@@ -1,8 +1,0 @@
-.Separator {
-  margin: 2rem;
-  height: 5px;
-  width: 90vw;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(100, 100, 100, 0.521);
-}
