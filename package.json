@@ -1,13 +1,11 @@
 {
   "name": "ahmed-khelili-blog",
   "version": "0.1.0",
-  "homepage": "https://blog.ahmedkhelili.dev/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "start": "next start"
   },
   "dependencies": {
     "@sanity/client": "^2.23.2",
