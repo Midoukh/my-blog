@@ -2,7 +2,7 @@ import React from "react";
 const badge = require("../../../public/Assets/bitcoin.png");
 const badge2 = require("../../../public/Assets/bitcoin (1).png");
 
-import styles from "./Crypto.module.css";
+import styles from "./style.module.css";
 import Blogs from "../../../Components/Blogs/Blogs";
 import ShowMoreButton from "../../../UI/ShowMoreButton/ShowMoreButton";
 

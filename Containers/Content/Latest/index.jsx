@@ -1,6 +1,6 @@
 import React from "react";
 const badge = require("../../../public/Assets/trending.png");
-import styles from "./Latest.module.css";
+import styles from "./style.module.css";
 import Blogs from "../../../Components/Blogs/Blogs";
 import ShowMoreButton from "../../../UI/ShowMoreButton/ShowMoreButton";
 

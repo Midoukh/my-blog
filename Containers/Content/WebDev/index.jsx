@@ -3,7 +3,7 @@ const badge = require("../../../public/Assets/wev_dev_1.png");
 const badge2 = require("../../../public/Assets/wev_dev_2.png");
 import ShowMoreButton from "../../../UI/ShowMoreButton/ShowMoreButton";
 
-import styles from "./WebDev.module.css";
+import styles from "./style.module.css";
 import Blogs from "../../../Components/Blogs/Blogs";
 const WebDev = () => {
   const data = ["post1", "post2", "post3", "post4", "post5", "post6"];

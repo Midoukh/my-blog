@@ -1,6 +1,6 @@
 import React from "react";
 const badge = require("../../../public/Assets/top-rated.png");
-import styles from "./TopPosts.module.css";
+import styles from "./style.module.css";
 import Blogs from "../../../Components/Blogs/Blogs";
 const TopPosts = () => {
   const data = ["post1", "post2", "post3", "post4", "post5", "post6"];

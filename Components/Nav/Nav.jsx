@@ -73,10 +73,10 @@ class Nav extends React.Component {
               Crypto Currency
             </li>
           </Link>
-          <Link href="/BooksAndResources">
+          <Link href="/Books">
             <li
               style={
-                this.props.router.pathname.includes("BooksAndResources")
+                this.props.router.pathname.includes("Books")
                   ? this.state.activeLinkStyle
                   : {}
               }

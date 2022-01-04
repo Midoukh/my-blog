@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Content.module.css";
-import TopPosts from "./TopPosts/TopPosts";
-import Latest from "./Latest/Latest";
-import Crypto from "./Crypto/Crypto";
-import BooksAndResources from "./BooksAndResources/BooksAndResources";
-import WebDev from "./WebDev/WebDev";
-import Footer from "../../Components/Footer/Footer";
+import TopPosts from "./TopPosts";
+import Latest from "./Latest";
+import Crypto from "./Crypto";
+import BooksAndResources from "./Books";
+import WebDev from "./WebDev";
+
 import Line from "../../UI/Line/Line";
 class Content extends React.Component {
   constructor(props) {

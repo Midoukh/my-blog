@@ -2,7 +2,7 @@ import React from "react";
 const badge = require("../../../public/Assets/read.png");
 const badge2 = require("../../../public/Assets/read (1).png");
 
-import styles from "./BooksAndResources.module.css";
+import styles from "./style.module.css";
 import Blogs from "../../../Components/Blogs/Blogs";
 import ShowMoreButton from "../../../UI/ShowMoreButton/ShowMoreButton";
 
@@ -27,10 +27,7 @@ const BooksAndResources = () => {
       </div>
       <Blogs data={data} bg="linear-gradient(45deg,#c32431c5, #d44851be)" />
       <div className={styles.ShowMore}>
-        <ShowMoreButton
-          content="Books and Resources Posts"
-          link="/BooksAndResources"
-        />
+        <ShowMoreButton content="Books and Resources Posts" link="/Books" />
       </div>
     </section>
   );
