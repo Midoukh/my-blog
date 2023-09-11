@@ -1,5 +1,5 @@
 export const origin =
-  process.env.NODE_ENV === "development1"
+  process.env.NODE_ENV === "development"
     ? "http://localhost:5000"
     : "https://admin-blog1.herokuapp.com";
 

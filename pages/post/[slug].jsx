@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import BlogContent from "../../Components/BlogContent/BlogContent";
 import BlogSkeleton from "../../UI/skeletons/Blog";
 import { origin } from "../../utils/constants";
+
 const Post = () => {
   const [postContent, setPostContent] = useState({});
   const [loading, setLoading] = useState(true);
@@ -14,14 +15,13 @@ const Post = () => {
   const router = useRouter();
   const { slug } = router.query;
 
-  const handleFetchPost = async () => {
+  const handleFetchPost = async (isMounted) => {
     const noSlug = location.pathname.split("/")[2];
     try {
       const res = await axios.get(`${origin}/blogs/get/${slug || noSlug}`);
+      if (isMounted) setPostContent((prev) => res.data.data[0]);
 
-      console.log(res);
-      setPostContent((prev) => res.data.data[0]);
-      if (postContent !== {}) {
+      if (Object.keys(postContent).length !== 0) {
         setLoading(false);
         setPostTitle((prev) => res.data.data[0].title);
       }
@@ -31,10 +31,13 @@ const Post = () => {
       setError(err);
     }
   };
+
   useEffect(() => {
-    handleFetchPost();
-    console.log(loading);
-  }, []);
+    let isMounted = true;
+    handleFetchPost(isMounted);
+
+    return () => (isMounted = false);
+  }, [loading, postContent, postTitle]);
   return (
     <div>
       <Head>
