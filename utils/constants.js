@@ -5,3 +5,5 @@ export const origin =
 
 console.log(origin);
 console.log(process.env.NODE_ENV);
+
+const GIT_TOKEN = "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";
